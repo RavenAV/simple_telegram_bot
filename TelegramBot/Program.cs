@@ -12,7 +12,7 @@ TelegramBot.Main();
 
 public class TelegramBot
 {
-    static ITelegramBotClient bot = new TelegramBotClient("5507968691:AAFT-N3XPOFU8pZSIto73D9X2Z7lOGpoNvw");
+    static ITelegramBotClient bot = new TelegramBotClient("...");
     public static async Task HandleUpdateAsync(ITelegramBotClient botClient,
         Update update, CancellationToken cancellationToken)
     {
